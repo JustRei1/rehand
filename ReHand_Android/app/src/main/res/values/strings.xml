@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ReHand</string>
+    <string name="re_hand">Re: Hand</string>
+    <string name="connect_prompt">Please connect to Re:Hand Device</string>
+    <string name="discovered_device">Discovered Device</string>
+    <string name="no_device">No device connceted</string>
+    <string name="str_connect_btn">Connect</string>
+    <string name="home">Home</string>
+    <string name="data">Data</string>
+    <string name="info">Info</string>
+    <string name="logout">Logout</string>
+    <string name="manage_ops">Manage Operators</string>
+    <string name="open_nav">OpenNav</string>
+    <string name="close_nav">CloseNav</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="admin">Admin</string>
+    <string name="requests">Requests</string>
+    <string name="admin_menu_text">Admin</string>
+</resources>

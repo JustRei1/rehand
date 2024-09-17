@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserData">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_marginTop="25dp"
+        android:id="@+id/thumb_chart_data"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_marginTop="85dp"
+        android:id="@+id/index_chart_data"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_marginTop="145dp"
+        android:id="@+id/middle_chart_data"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_marginTop="205dp"
+        android:id="@+id/ring_chart_data"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_marginTop="265dp"
+        android:id="@+id/little_chart_data"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_marginTop="325dp"
+        android:id="@+id/x_chart_data"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_marginTop="385dp"
+        android:id="@+id/y_chart_data"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_marginTop="445dp"
+        android:id="@+id/emg_chart_data"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello User Data Page"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download File"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/gray">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/blue1" /> <!-- Transparent background color -->
+            <corners android:radius="500dp" /> <!-- Radius controls the circle size -->
+        </shape>
+    </item>
+</ripple>
